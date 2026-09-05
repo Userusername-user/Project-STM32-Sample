@@ -75,7 +75,7 @@ void uart_printf(const char *fmt, ...);
 
 四、项目目录
 
-```text
+
 stm32-starter/
 │
 ├── Core/
