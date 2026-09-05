@@ -88,7 +88,6 @@ Core/
          uart_printf.c
 
 Drivers
- # STM32 HAL / CMSIS 驱动
 
  Middlewares/
  Third_Party/
