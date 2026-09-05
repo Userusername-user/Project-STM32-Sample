@@ -77,41 +77,39 @@ void uart_printf(const char *fmt, ...);
 
 
 stm32-starter/
-│
-├── Core/
-│   ├── Inc/
-│   │   ├── main.h
-│   │   ├── FreeRTOSConfig.h
-│   │   └── uart_printf.h
-│   │
-│   └── Src/
-│       ├── main.c
-│       └── uart_printf.c
-│
-├── Drivers/
-│   └── # STM32 HAL / CMSIS 驱动
-│
-├── Middlewares/
-│   └── Third_Party/
-│       └── FreeRTOS/
-│
-├── .gitignore
-├── PROJECT_INFO.txt
-└── README.md
+Core/
+     Inc/
+         main.h
+         FreeRTOSConfig.h
+         uart_printf.h
+
+     Src/
+         main.c
+         uart_printf.c
+
+Drivers
+ # STM32 HAL / CMSIS 驱动
+
+ Middlewares/
+ Third_Party/
+ FreeRTOS/
+
+PROJECT_INFO.txt
+README.md
 
 
 
 五、技术栈
 
-- **MCU：** STM32
-- **HAL：** STM32 HAL
-- **RTOS：** FreeRTOS
-- **语言：** C
-- **开发方向：** 嵌入式软件 / 实时系统
-- **版本管理：** Git
-- **代码托管：** GitHub
+MCU： STM32
+HAL： STM32 HAL
+RTOS：FreeRTOS
+语言： C
+开发方向：嵌入式软件 / 实时系统
+版本管理：Git
+代码托管：GitHub
 
----
+
 
 六、项目能力
 
@@ -142,11 +140,11 @@ RTOS 基础能力
 
 七、简历项目描述
 
-**STM32 + FreeRTOS 嵌入式实时控制项目**
+STM32 + FreeRTOS 嵌入式实时控制项目
 
 基于 STM32 和 FreeRTOS 搭建嵌入式实时应用框架，采用多任务方式组织系统功能，完成 FreeRTOS 任务创建、任务优先级配置、任务调度及周期性任务控制；结合 STM32 HAL 完成系统初始化，并设计 UART 格式化调试接口，为串口日志及运行状态监控提供支持。项目采用模块化代码结构，并使用 Git/GitHub 进行版本管理。
 
-技术关键词：** `STM32` `FreeRTOS` `C预言` `HAL` `UART` `多任务调度` `嵌入式系统` `Git`
+关键词： `STM32` `FreeRTOS` `C预言` `HAL` `UART` `多任务调度` `嵌入式系统` `Git`
 
 
 
