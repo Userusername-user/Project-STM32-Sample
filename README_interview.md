@@ -149,5 +149,5 @@ STM32 + FreeRTOS 嵌入式实时控制项目
 
 八、项目状态
 
-> 当前仓库为 STM32 + FreeRTOS 基础工程框架，部分 MCU 相关初始化、具体型号 HAL 驱动、启动文件及 FreeRTOS Port 需要根据实际 STM32 型号进行配置。
+ 当前仓库为 STM32 + FreeRTOS 基础工程框架，部分 MCU 相关初始化、具体型号 HAL 驱动、启动文件及 FreeRTOS Port 需要根据实际 STM32 型号进行配置。
 
