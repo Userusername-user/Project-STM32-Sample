@@ -57,9 +57,9 @@ for (;;)
 
 4. UART 调试接口
 项目提供：
-
+```c
 void uart_printf(const char *fmt, ...);
-
+```
 五、技术栈
 
 MCU： STM32
